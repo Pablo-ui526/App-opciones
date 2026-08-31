@@ -1,11 +1,11 @@
 import streamlit as st
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # <--- Esta es la única línea clave que agregamos arriba
+matplotlib.use('Agg')
+matplotlib.rcParams['mathtext.default']='regular'
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 import math
-import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
